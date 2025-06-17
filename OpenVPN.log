@@ -1,0 +1,65 @@
+[Jun 17, 2025, 15:07:59] OpenVPN core 3.11.2_dev win x86_64 64-bit OVPN-DCO built on May  9 2025 13:24:58
+⏎[Jun 17, 2025, 15:07:59] Frame=512/2112/512 mssfix-ctrl=1250
+⏎[Jun 17, 2025, 15:07:59] NOTE: This configuration contains options that were not used:
+⏎[Jun 17, 2025, 15:07:59] Unsupported option (ignored)
+⏎[Jun 17, 2025, 15:07:59] 0 [resolv-retry] [infinite]
+⏎[Jun 17, 2025, 15:07:59] EVENT: RESOLVE ⏎[Jun 17, 2025, 15:07:59] EVENT: WAIT ⏎[Jun 17, 2025, 15:07:59] WinCommandAgent: transmitting bypass route to 54.252.96.6
+{
+	"host" : "54.252.96.6",
+	"ipv6" : false
+}
+
+⏎[Jun 17, 2025, 15:07:59] Connecting to [addfc57c2b80.coallslste.cvpn-endpoint-066f0525f615c5a17.prod.clientvpn.ap-southeast-2.amazonaws.com]:443 (54.252.96.6) via TCP
+⏎[Jun 17, 2025, 15:07:59] EVENT: CONNECTING ⏎[Jun 17, 2025, 15:07:59] Tunnel Options:V4,dev-type tun,link-mtu 1523,tun-mtu 1500,proto TCPv4_CLIENT,cipher AES-256-GCM,auth [null-digest],keysize 256,key-method 2,tls-client
+⏎[Jun 17, 2025, 15:07:59] Creds: StaticChallenge
+⏎[Jun 17, 2025, 15:07:59] Sending Peer Info:
+IV_VER=3.11.2_dev
+IV_PLAT=win
+IV_NCP=2
+IV_TCPNL=1
+IV_PROTO=8094
+IV_MTU=1600
+IV_CIPHERS=AES-128-CBC:AES-192-CBC:AES-256-CBC:AES-128-GCM:AES-192-GCM:AES-256-GCM:CHACHA20-POLY1305
+IV_GUI_VER=OCWindows_3.7.2-4253
+IV_SSO=webauth,crtext
+
+⏎[Jun 17, 2025, 15:07:59] SSL Handshake: peer certificate: CN=server.domain.tld, 2048 bit RSA, cipher: TLS_AES_256_GCM_SHA384         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(256)            Mac=AEAD
+
+⏎[Jun 17, 2025, 15:07:59] Session is ACTIVE
+⏎[Jun 17, 2025, 15:07:59] EVENT: WARN TLS: received certificate signed with SHA1. Please inform your admin to upgrade to a stronger algorithm. Support for SHA1 signatures will be dropped in the future⏎[Jun 17, 2025, 15:07:59] EVENT: GET_CONFIG ⏎[Jun 17, 2025, 15:07:59] Sending PUSH_REQUEST to server...
+⏎[Jun 17, 2025, 15:08:00] Sending PUSH_REQUEST to server...
+⏎[Jun 17, 2025, 15:08:00] Clearing session-id
+⏎[Jun 17, 2025, 15:08:00] AUTH_FAILED
+⏎[Jun 17, 2025, 15:08:00] EVENT: AUTH_FAILED Invalid username or password⏎[Jun 17, 2025, 15:08:00] EVENT: DISCONNECTED ⏎[Jun 17, 2025, 15:09:22] OpenVPN core 3.11.2_dev win x86_64 64-bit OVPN-DCO built on May  9 2025 13:24:58
+⏎[Jun 17, 2025, 15:09:22] Frame=512/2112/512 mssfix-ctrl=1250
+⏎[Jun 17, 2025, 15:09:22] NOTE: This configuration contains options that were not used:
+⏎[Jun 17, 2025, 15:09:22] Unsupported option (ignored)
+⏎[Jun 17, 2025, 15:09:22] 0 [resolv-retry] [infinite]
+⏎[Jun 17, 2025, 15:09:22] EVENT: RESOLVE ⏎[Jun 17, 2025, 15:09:22] EVENT: WAIT ⏎[Jun 17, 2025, 15:09:22] WinCommandAgent: transmitting bypass route to 52.62.70.21
+{
+	"host" : "52.62.70.21",
+	"ipv6" : false
+}
+
+⏎[Jun 17, 2025, 15:09:22] Connecting to [da78f2f9da73.coalstd.cvpn-endpoint-0aa30c91932ccff33.prod.clientvpn.ap-southeast-2.amazonaws.com]:443 (52.62.70.21) via TCP
+⏎[Jun 17, 2025, 15:09:22] EVENT: CONNECTING ⏎[Jun 17, 2025, 15:09:22] Tunnel Options:V4,dev-type tun,link-mtu 1523,tun-mtu 1500,proto TCPv4_CLIENT,cipher AES-256-GCM,auth [null-digest],keysize 256,key-method 2,tls-client
+⏎[Jun 17, 2025, 15:09:22] Creds: StaticChallenge
+⏎[Jun 17, 2025, 15:09:22] Sending Peer Info:
+IV_VER=3.11.2_dev
+IV_PLAT=win
+IV_NCP=2
+IV_TCPNL=1
+IV_PROTO=8094
+IV_MTU=1600
+IV_CIPHERS=AES-128-CBC:AES-192-CBC:AES-256-CBC:AES-128-GCM:AES-192-GCM:AES-256-GCM:CHACHA20-POLY1305
+IV_GUI_VER=OCWindows_3.7.2-4253
+IV_SSO=webauth,crtext
+
+⏎[Jun 17, 2025, 15:09:22] SSL Handshake: peer certificate: CN=server.domain.tld, 2048 bit RSA, cipher: TLS_AES_256_GCM_SHA384         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(256)            Mac=AEAD
+
+⏎[Jun 17, 2025, 15:09:22] Session is ACTIVE
+⏎[Jun 17, 2025, 15:09:22] EVENT: WARN TLS: received certificate signed with SHA1. Please inform your admin to upgrade to a stronger algorithm. Support for SHA1 signatures will be dropped in the future⏎[Jun 17, 2025, 15:09:22] EVENT: GET_CONFIG ⏎[Jun 17, 2025, 15:09:22] Sending PUSH_REQUEST to server...
+⏎[Jun 17, 2025, 15:09:23] Sending PUSH_REQUEST to server...
+⏎[Jun 17, 2025, 15:09:24] Clearing session-id
+⏎[Jun 17, 2025, 15:09:24] AUTH_FAILED
+⏎[Jun 17, 2025, 15:09:24] EVENT: AUTH_FAILED Invalid username or password⏎[Jun 17, 2025, 15:09:24] EVENT: DISCONNECTED ⏎
